@@ -58,7 +58,7 @@ header h2,h3{
     width: 100%;
     display: grid;
     place-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
     grid-gap: 1rem;
 }
 .service_card{
